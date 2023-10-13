@@ -1,1 +1,3 @@
 # colab-facial
+
+We trained the model used for face recognition in the LFW and personal datasets, and found that the results of each training varied according to the epochs (10 and 20). In the LFW dataset, when trained over 10 epochs, we obtained a validation classification rate of 99.51%, a validation test precision rate of 99.92%, a validation recall rate of 99.27% and a validation loss rate of 0.0296. After this dataset was trained over 20 epochs, we obtained a slight improvement on these metrics, including a validation classification rate of 99.60%, a validation recall rate of 99.50%, a validation loss rate of 0.0210, and a slight decrease( the validation accuracy rate leaves 99.92% to 99.84%). 
